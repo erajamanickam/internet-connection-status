@@ -9,6 +9,6 @@
         internet.style.color = "green";
     })
     window.addEventListener("offline",function(){
-        internet.textContent = "<i class='uil uil-wifi-slash'></i> You're Offline now"
+        internet.textContent = "You're Offline now"
         internet.style.color = "red";
     });
